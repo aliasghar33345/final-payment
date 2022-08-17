@@ -1,0 +1,32 @@
+{
+  "name": "new-design",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start -p $PORT",
+    "lint": "next lint",
+    "herouke-postBuild": "npm run build"
+  },
+  "dependencies": {
+    "antd": "^4.20.2",
+    "axios": "^0.27.2",
+    "crypto": "^1.0.1",
+    "next": "12.1.6",
+    "pg": "^8.7.3",
+    "qrcode.react": "^3.1.0",
+    "react": "18.1.0",
+    "react-dom": "18.1.0",
+    "react-hot-toast": "^2.2.0",
+    "sass": "^1.51.0",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "eslint": "8.14.0",
+    "eslint-config-next": "12.1.6"
+  },
+  "engines": {
+    "node": "14.x"
+  }
+}
